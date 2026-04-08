@@ -1,0 +1,186 @@
+{
+  "happy": {
+    "songs": [
+      {"title": "Walking on Sunshine", "artist": "Katrina and the Waves", "note": "Upbeat pop classic"},
+      {"title": "Happy", "artist": "Pharrell Williams", "note": "Celebratory groove"},
+      {"title": "Good as Hell", "artist": "Lizzo", "note": "Confidence boost"},
+      {"title": "September", "artist": "Earth, Wind & Fire", "note": "Feel-good funk"},
+      {"title": "Can't Stop the Feeling!", "artist": "Justin Timberlake", "note": "Pure joy energy"}
+    ],
+    "movies": [
+      {"title": "Paddington 2", "year": 2017, "note": "Warm-hearted adventure"},
+      {"title": "The Grand Budapest Hotel", "year": 2014, "note": "Colorful, witty comedy"},
+      {"title": "Sing Street", "year": 2016, "note": "Music-filled optimism"},
+      {"title": "Chef", "year": 2014, "note": "Comfort food and road trip vibes"},
+      {"title": "Legally Blonde", "year": 2001, "note": "Empowering comedy"}
+    ],
+    "series": [
+      {"title": "Ted Lasso", "note": "Kindness and team spirit"},
+      {"title": "Schitt's Creek", "note": "Character growth and laughs"},
+      {"title": "Brooklyn Nine-Nine", "note": "Goofy, warm ensemble"},
+      {"title": "Heartstopper", "note": "Sweet, affirming romance"},
+      {"title": "Our Flag Means Death", "note": "Silly pirate found-family"}
+    ]
+  },
+  "sad": {
+    "songs": [
+      {"title": "Someone Like You", "artist": "Adele", "note": "Cathartic ballad"},
+      {"title": "Skinny Love", "artist": "Bon Iver", "note": "Intimate melancholy"},
+      {"title": "The Sound of Silence", "artist": "Simon & Garfunkel", "note": "Quiet reflection"},
+      {"title": "Motion Picture Soundtrack", "artist": "Radiohead", "note": "Fragile, honest"},
+      {"title": "Hurt", "artist": "Johnny Cash", "note": "Raw emotional weight"}
+    ],
+    "movies": [
+      {"title": "Manchester by the Sea", "year": 2016, "note": "Grief and resilience"},
+      {"title": "Her", "year": 2013, "note": "Loneliness and connection"},
+      {"title": "A Silent Voice", "year": 2016, "note": "Healing and forgiveness"},
+      {"title": "The Father", "year": 2020, "note": "Profound and human"},
+      {"title": "Columbus", "year": 2017, "note": "Gentle, architectural calm"}
+    ],
+    "series": [
+      {"title": "This Is Us", "note": "Family drama with heart"},
+      {"title": "After Life", "note": "Grief with dark humor"},
+      {"title": "The Leftovers", "note": "Existential loss and hope"},
+      {"title": "My Brilliant Friend", "note": "Friendship across decades"},
+      {"title": "BoJack Horseman", "note": "Depression portrayed honestly"}
+    ]
+  },
+  "calm": {
+    "songs": [
+      {"title": "Weightless", "artist": "Marconi Union", "note": "Ambient, restorative"},
+      {"title": "Holocene", "artist": "Bon Iver", "note": "Expansive calm"},
+      {"title": "Clair de Lune", "artist": "Debussy", "note": "Classical serenity"},
+      {"title": "Breathe Me", "artist": "Sia", "note": "Slow, breathing pace"},
+      {"title": "The Sea", "artist": "Corinne Bailey Rae", "note": "Smooth, easy listen"}
+    ],
+    "movies": [
+      {"title": "Paterson", "year": 2016, "note": "Ordinary beauty, poetry"},
+      {"title": "Y Tu Mamá También", "year": 2001, "note": "Road trip, introspection"},
+      {"title": "Wings of Desire", "year": 1987, "note": "Meditative Berlin"},
+      {"title": "The Secret Life of Walter Mitty", "year": 2013, "note": "Escapist visual calm"},
+      {"title": "A Man Called Ove", "year": 2015, "note": "Slow-burn warmth"}
+    ],
+    "series": [
+      {"title": "The Great British Bake Off", "note": "Low-stakes comfort"},
+      {"title": "Slow Horses", "note": "Measured spy drama (steady pacing)"},
+      {"title": "Our Planet", "note": "Nature visuals and sound"},
+      {"title": "Midnight Diner", "note": "Anthology comfort food stories"},
+      {"title": "Detectorists", "note": "Gentle British comedy"}
+    ]
+  },
+  "energetic": {
+    "songs": [
+      {"title": "Thunderstruck", "artist": "AC/DC", "note": "High-voltage rock"},
+      {"title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "note": "Party starter"},
+      {"title": "Eye of the Tiger", "artist": "Survivor", "note": "Training montage energy"},
+      {"title": "Blinding Lights", "artist": "The Weeknd", "note": "Synth-pop drive"},
+      {"title": "Titanium", "artist": "David Guetta ft. Sia", "note": "Anthemic EDM"}
+    ],
+    "movies": [
+      {"title": "Mad Max: Fury Road", "year": 2015, "note": "Relentless action"},
+      {"title": "Baby Driver", "year": 2017, "note": "Rhythm and chase"},
+      {"title": "Scott Pilgrim vs. the World", "year": 2010, "note": "Hyper-stylized fun"},
+      {"title": "Kill Bill: Vol. 1", "year": 2003, "note": "Revenge adrenaline"},
+      {"title": "Everything Everywhere All at Once", "year": 2022, "note": "Chaos and heart"}
+    ],
+    "series": [
+      {"title": "Arcane", "note": "Visually explosive animation"},
+      {"title": "Attack on Titan", "note": "Intense serialized action"},
+      {"title": "The Boys", "note": "Fast, dark superhero satire"},
+      {"title": "Money Heist", "note": "Heist tension"},
+      {"title": "Demon Slayer", "note": "High-octane shonen"}
+    ]
+  },
+  "anxious": {
+    "songs": [
+      {"title": "Breathe Me", "artist": "Sia", "note": "Grounding tempo"},
+      {"title": "Fix You", "artist": "Coldplay", "note": "Reassuring build"},
+      {"title": "Let It Be", "artist": "The Beatles", "note": "Simple comfort"},
+      {"title": "Rain Sounds", "artist": "Ambient", "note": "White noise reset"},
+      {"title": "Both Sides Now", "artist": "Joni Mitchell", "note": "Reflective perspective"}
+    ],
+    "movies": [
+      {"title": "Inside Out", "year": 2015, "note": "Names and navigates emotions"},
+      {"title": "The Pursuit of Happyness", "year": 2006, "note": "Persistence under pressure"},
+      {"title": "Little Miss Sunshine", "year": 2006, "note": "Family mess, warm ending"},
+      {"title": "Whiplash", "year": 2014, "note": "Controlled tension catharsis"},
+      {"title": "The Peanut Butter Falcon", "year": 2019, "note": "Gentle adventure"}
+    ],
+    "series": [
+      {"title": "The Good Place", "note": "Philosophy with levity"},
+      {"title": "Derry Girls", "note": "Chaotic humor, short episodes"},
+      {"title": "Taskmaster", "note": "Silly distraction"},
+      {"title": "Anne with an E", "note": "Emotional but hopeful"},
+      {"title": "Kim's Convenience", "note": "Light family comedy"}
+    ]
+  },
+  "angry": {
+    "songs": [
+      {"title": "Break Stuff", "artist": "Limp Bizkit", "note": "Explicit venting"},
+      {"title": "Killing in the Name", "artist": "Rage Against the Machine", "note": "Raw political fury"},
+      {"title": "Before He Cheats", "artist": "Carrie Underwood", "note": "Revenge fantasy"},
+     {"title": "You Oughta Know", "artist": "Alanis Morissette", "note": "Scathing honesty"},
+      {"title": "FU", "artist": "CeeLo Green", "note": "Blunt release"}
+    ],
+    "movies": [
+      {"title": "Nightcrawler", "year": 2014, "note": "Tense, morally sharp"},
+      {"title": "There Will Be Blood", "year": 2007, "note": "Slow-burn outrage"},
+      {"title": "Fight Club", "year": 1999, "note": "Cultural anger artifact"},
+      {"title": "Promising Young Woman", "year": 2020, "note": "Provocative revenge"},
+      {"title": "Whiplash", "year": 2014, "note": "Pressure and confrontation"}
+    ],
+    "series": [
+      {"title": "Breaking Bad", "note": "Controlled descent"},
+      {"title": "Succession", "note": "Sharp, cynical dialogue"},
+      {"title": "The Bear", "note": "Kitchen intensity"},
+      {"title": "Fleabag", "note": "Wit and rage intertwined"},
+      {"title": "Peaky Blinders", "note": "Stylish tension"}
+    ]
+  },
+  "romantic": {
+    "songs": [
+      {"title": "At Last", "artist": "Etta James", "note": "Classic romance"},
+      {"title": "Thinking Out Loud", "artist": "Ed Sheeran", "note": "Wedding-adjacent warmth "},
+      {"title": "Adore You", "artist": "Harry Styles", "note": "Soft devotion"},
+      {"title": "Latch", "artist": "Disclosure ft. Sam Smith", "note": "Intimate electronic"},
+      {"title": "The Book of Love", "artist": "The Magnetic Fields", "note": "Tender indie"}
+    ],
+    "movies": [
+      {"title": "Before Sunrise", "year": 1995, "note": "Walking and talking love"},
+      {"title": "Pride & Prejudice", "year": 2005, "note": "Period longing"},
+      {"title": "The Notebook", "year": 2004, "note": "Sweeping romance"},
+      {"title": "Palm Springs", "year": 2020, "note": "Time-loop chemistry"},
+      {"title": "Past Lives", "year": 2023, "note": "Quiet, deep connection"}
+    ],
+    "series": [
+      {"title": "Normal People", "note": "Intimate relationship study"},
+      {"title": "Bridgerton", "note": "Regency romance drama"},
+      {"title": "Outlander", "note": "Epic historical romance"},
+      {"title": "Queen Charlotte", "note": "Royal love story"},
+      {"title": "One Day", "note": "Long-span romance"}
+    ]
+  },
+  "nostalgic": {
+    "songs": [
+      {"title": "1979", "artist": "The Smashing Pumpkins", "note": "Youth and memory"},
+      {"title": "The Way We Were", "artist": "Barbra Streisand", "note": "Classic longing"},
+      {"title": "Come On Eileen", "artist": "Dexys Midnight Runners", "note": "Singalong throwback"},
+      {"title": "Landslide", "artist": "Fleetwood Mac", "note": "Time and change"},
+      {"title": "The Night We Met", "artist": "Lord Huron", "note": "Wistful indie"}
+    ],
+    "movies": [
+      {"title": "Dazed and Confused", "year": 1993, "note": "Last day of school era"},
+      {"title": "Stand by Me", "year": 1986, "note": "Childhood friendship"},
+      {"title": "Midnight in Paris", "year": 2011, "note": "Literal nostalgia trip"},
+      {"title": "Lady Bird", "year": 2017, "note": "Home and growing up"},
+      {"title": "Cinema Paradiso", "year": 1988, "note": "Love letter to film"}
+    ],
+    "series": [
+      {"title": "Stranger Things", "note": "80s small-town adventure"},
+      {"title": "The Wonder Years", "note": "Coming-of-age memory"},
+      {"title": "PEN15", "note": "Middle school cringe-nostalgia"},
+      {"title": "Young Royals", "note": "Teen intensity and first love"},
+      {"title": "Freaks and Geeks", "note": "One perfect nostalgic season"}
+    ]
+  }
+}

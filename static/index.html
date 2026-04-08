@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moodify — mood-based picks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <div class="bg-gradient" aria-hidden="true"></div>
+    <header class="top">
+      <div class="brand">
+        <span class="logo" aria-hidden="true">◇</span>
+        <div>
+          <h1>Moodify</h1>
+          <p class="tagline">Songs, films, and series matched to how you feel</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel input-panel">
+        <label for="mood-text" class="sr-only">Describe your mood</label>
+        <textarea
+          id="mood-text"
+          rows="5"
+          maxlength="4000"
+          placeholder="How are you feeling? A sentence or two is enough — or drop some emojis."
+        ></textarea>
+        <div class="row">
+          <button type="button" id="analyze-btn" class="btn primary">Analyze &amp; recommend</button>
+          <span id="status" class="status" role="status"></span>
+        </div>
+        <p class="hint">
+          Uses <strong>lexical similarity</strong> (TF‑IDF), <strong>VADER</strong> sentiment, and light
+          keyword / emoji cues — then maps to curated picks.
+        </p>
+      </section>
+
+      <section class="panel results" id="results" hidden>
+        <div class="mood-banner">
+          <div>
+            <p class="eyebrow">Detected mood</p>
+            <h2 id="mood-label">—</h2>
+            <p id="mood-rationale" class="rationale"></p>
+          </div>
+          <div class="meter-wrap">
+            <p class="eyebrow">Confidence</p>
+            <div class="meter" aria-hidden="true"><div class="meter-fill" id="confidence-bar"></div></div>
+            <p class="meter-value" id="confidence-val">—</p>
+          </div>
+        </div>
+
+        <div class="vader" id="vader-block">
+          <p class="eyebrow">Sentiment (VADER)</p>
+          <ul class="vader-list" id="vader-list"></ul>
+        </div>
+
+        <div class="grid-3">
+          <div class="card-column">
+            <h3 class="column-title">Songs</h3>
+            <ul id="list-songs" class="item-list"></ul>
+          </div>
+          <div class="card-column">
+            <h3 class="column-title">Movies</h3>
+            <ul id="list-movies" class="item-list"></ul>
+          </div>
+          <div class="card-column">
+            <h3 class="column-title">Series</h3>
+            <ul id="list-series" class="item-list"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <small>Moodify · local demo · extend with Spotify / TMDB APIs for live catalogs</small>
+    </footer>
+
+    <script src="/assets/app.js" type="module"></script>
+  </body>
+</html>
